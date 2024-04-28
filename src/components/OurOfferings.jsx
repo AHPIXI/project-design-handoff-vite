@@ -45,12 +45,18 @@ const OurOfferingsSection = styled.section`
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 130%; /* 20.8px */
-  }
+    line-height: 130%; /* 20.8px */ 
+}
 `;
 
 const OurOfferingsCards = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: left;
+
+  @media (min-width: 600px) and (max-width: 1200px) {
+    display: flex;
+  flex-direction: row;
+  justify-content: left;
+  }
 `;
