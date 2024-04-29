@@ -69,7 +69,7 @@ const HeroContent = styled.div`
     padding-left: 24px;
     padding-bottom: 160px;
   }
-  @media (min-width: 600px) {
+  @media (min-width: 600px) and (max-width: 1200px) {
     h1 {
       font-size: 64px;
       line-height: 83.2px;
