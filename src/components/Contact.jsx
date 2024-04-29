@@ -20,6 +20,7 @@ export const Contact = () => {
 };
 
 const ContactWrapper = styled.section`
+  background-color: #e6f4ff;
   display: grid;
 
   @media (min-width: 600px) {
@@ -27,7 +28,6 @@ const ContactWrapper = styled.section`
   }
 `;
 const ContactContent = styled.div`
-  background-color: #e6f4ff;
   display: flex;
   flex-direction: column;
   margin: auto;
