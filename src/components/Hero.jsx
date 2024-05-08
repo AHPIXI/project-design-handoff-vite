@@ -1,4 +1,4 @@
-import heroImage from "../assets/heroSectionImages/heroImage.png";
+import heroImage from "../assets/heroSectionImages/heroImage.svg";
 import mountainImage from "../assets/heroSectionImages/mountainGraphic.png";
 import styled from "styled-components";
 import { HeaderNavbar } from "./HeaderNavbar";
@@ -89,9 +89,6 @@ const HeroContent = styled.div`
 `;
 
 const CtaButton = styled.button`
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
   gap: 10px;
   width: 85%;
   height: 48px;
@@ -110,9 +107,10 @@ const CtaButton = styled.button`
   line-height: 100%;
   margin: auto;
   @media (min-width: 600px) {
+    
     width: 30%;
     height: 48px;
-    padding-left: 32px;
+
   }
 
   &:hover {

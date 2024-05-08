@@ -1,4 +1,4 @@
-import exploreMobile from "../../assets/mobileIcons/explore-mobile.png";
+import exploreMobile from "../../assets/mobileIcons/explore-mobile.svg";
 // import exploreTablet from "../../assets/tabletIcons/explore-tablet.png";
 // import exploreDesktop from "../../assets/desktopIcons/explore-desktop.png";
 import styled from "styled-components";

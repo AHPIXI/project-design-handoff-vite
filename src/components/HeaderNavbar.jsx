@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import navbarLogo from "../assets/heroSectionImages/navbarLogoBlack.png";
-import menuIcon from "../assets/heroSectionImages/menu.png";
+import navbarLogo from "../assets/heroSectionImages/navbarLogoBlack.svg";
+import menuIcon from "../assets/heroSectionImages/menu.svg";
 import { Dropdown } from "./Dropdown"
 
 export const HeaderNavbar = () => {

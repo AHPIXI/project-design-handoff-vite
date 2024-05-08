@@ -25,6 +25,7 @@ export const OurOfferings = () => {
   );
 };
 const OurOfferingsSection = styled.section`
+  gap: 120px;
   
   h1 {
     color: #0b1623;
@@ -45,6 +46,10 @@ const OurOfferingsSection = styled.section`
     font-weight: 400;
     line-height: 130%; /* 20.8px */
   }
+  @media (min-width: 1200px){
+    padding-left: 150px;
+    padding-right: 150px;
+  }
 `;
 
 const OurOfferingsCards = styled.div`
@@ -57,5 +62,7 @@ const OurOfferingsCards = styled.div`
   }
   @media (min-width: 1200px){
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-left: 150px;
+    padding-right: 150px;
   }
 `;

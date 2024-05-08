@@ -28,7 +28,7 @@ export const Button = styled.button`
     border: 1px solid var(--Powder-Black, #0b1623);
     background: var(--Powder-Accent-1-Dark, #f87ba8);
     box-shadow: 2px 3px 0px 0px #0b1623;
-
+  }
   &:active {
   border-radius: 32px;
   border: 1px solid var(--Powder-Black, #0B1623);
