@@ -1,6 +1,6 @@
-import snowboarderMobile from "../../assets/mobileIcons/snowboarder-mobile.png";
-import snowboarderTablet from "../../assets/tabletIcons/snowboarder-tablet.png";
-import snowboarderDesktop from "../../assets/desktopIcons/snowboarder-desktop.png";
+import snowboarderMobile from "../../assets/mobileIcons/snowboarder-mobile.svg";
+// import snowboarderTablet from "../../assets/tabletIcons/snowboarder-tablet.png";
+// import snowboarderDesktop from "../../assets/desktopIcons/snowboarder-desktop.png";
 import styled from "styled-components";
 
 export const Learn = () => {

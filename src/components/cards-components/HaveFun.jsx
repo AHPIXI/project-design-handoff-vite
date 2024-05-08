@@ -1,6 +1,6 @@
-import havefunMobile from "../../assets/mobileIcons/fun-mobile.png";
-import havefunTablet from "../../assets/tabletIcons/fun-tablet.png";
-import havefunDesktop from "../../assets/desktopIcons/fun-desktop.png";
+import havefunMobile from "../../assets/mobileIcons/fun-mobile.svg";
+// import havefunTablet from "../../assets/tabletIcons/fun-tablet.png";
+// import havefunDesktop from "../../assets/desktopIcons/fun-desktop.png";
 import styled from "styled-components";
 
 export const HaveFun = () => {

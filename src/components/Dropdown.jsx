@@ -1,6 +1,6 @@
 import { useState } from "react";
 import styled from "styled-components";
-import menuIcon from "../assets/heroSectionImages/menu.png";
+import menuIcon from "../assets/heroSectionImages/menu.svg";
 import vector from "../assets/heroSectionImages/vector.png";
 
 export const Dropdown = () => {

@@ -1,6 +1,6 @@
-import houseMobile from "../../assets/mobileIcons/house-mobile.png";
-import houseTablet from "../../assets/tabletIcons/house-tablet.png";
-import houseDesktop from "../../assets/desktopIcons/house-desktop.png";
+import houseMobile from "../../assets/mobileIcons/house-mobile.svg";
+// import houseTablet from "../../assets/tabletIcons/house-tablet.png";
+// import desktopTablet from "../../assets/desktopIcons/house-desktop.png";
 import styled from "styled-components";
 
 export const Live = () => {

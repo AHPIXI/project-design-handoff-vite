@@ -1,6 +1,6 @@
-import priceCardOne from "../assets/priceCards/priceCardOne.png";
-import priceCardTwo from "../assets/priceCards/priceCardTwo.png";
-import priceCardThree from "../assets/priceCards/priceCardThree.png";
+import priceCardOne from "../assets/priceCards/priceCardOne.svg";
+import priceCardTwo from "../assets/priceCards/priceCardTwo.svg";
+import priceCardThree from "../assets/priceCards/priceCardThree.svg";
 import styled from "styled-components";
 
 export const MakeYourPick = () => {

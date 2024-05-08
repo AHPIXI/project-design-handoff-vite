@@ -1,6 +1,6 @@
-import tabletLogo from "../assets/footerImages/tablet-logo.png";
-import mobileLogo from "../assets/footerImages/mobile-logo.png";
-import desktopLogo from "../assets/footerImages/desktop-logo.png";
+import tabletLogo from "../assets/footerImages/tablet-logo.svg";
+// import mobileLogo from "../assets/footerImages/moblie-logo.png";
+// import desktopLogo from "../assets/footerImages/desktop-logo.png";
 import facebook from "../assets/followUsSection/facebook.png";
 import instagram from "../assets/followUsSection/instagram.png";
 import chevron from "../assets/followUsSection/chevron.png";
