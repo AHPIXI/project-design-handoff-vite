@@ -46,7 +46,7 @@ const LearnImage = styled.div`
 `;
 
 const LearnText = styled.div`
-  width: 280px;
+  
   h2 {
     color: #0b1623;
     font-size: 21px;

@@ -44,7 +44,7 @@ const ExploreImage = styled.div`
 `;
 
 const ExploreText = styled.div`
-  width: 280px;
+  
   h2 {
     color: #0b1623;
     font-size: 21px;

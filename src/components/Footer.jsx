@@ -62,7 +62,7 @@ const FooterText = styled.div`
   padding-right: 24px;
   padding-left: 24px;
   padding-bottom: 40px;
-  margin: auto;
+  
 
   h1 {
     font-family: Philosopher;

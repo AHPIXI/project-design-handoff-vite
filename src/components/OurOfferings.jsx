@@ -57,6 +57,7 @@ const OurOfferingsCards = styled.div`
 
   @media (min-width: 600px) and (max-width: 1199px) {
     grid-template-columns: 1fr 1fr;
+    
   
     
   }
