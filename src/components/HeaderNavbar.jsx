@@ -1,24 +1,23 @@
-import styled from "styled-components";
-import navbarLogo from "../assets/heroSectionImages/navbarLogoBlack.svg";
-import menuIcon from "../assets/heroSectionImages/menu.svg";
+import styled from "styled-components"
+import navbarLogo from "../assets/heroSectionImages/navbarLogoBlack.svg"
+import menuIcon from "../assets/heroSectionImages/menu.svg"
 import { Dropdown } from "./Dropdown"
 
 export const HeaderNavbar = () => {
   return (
     <>
       <Navbar>
-        <NavbarLogo src={navbarLogo} />
+        <NavbarLogo src={navbarLogo} alt="Navbar" />
         <Dropdown />
       </Navbar>
-    
     </>
-  );
-};
+  )
+}
 
 const Navbar = styled.div`
   display: flex;
   justify-content: space-between;
-`;
+`
 
 const NavbarLogo = styled.img`
   height: 34.471px;
@@ -26,7 +25,7 @@ const NavbarLogo = styled.img`
   flex-shrink: 1;
   margin-left: 24px;
   padding-top: 40px;
-`;
+`
 
 // const NavbarMenu = styled.img`
 // padding-right: 24px;

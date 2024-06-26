@@ -1,7 +1,7 @@
-import priceCardOne from "../assets/priceCards/priceCardOne.svg";
-import priceCardTwo from "../assets/priceCards/priceCardTwo.svg";
-import priceCardThree from "../assets/priceCards/priceCardThree.svg";
-import styled from "styled-components";
+import priceCardOne from "../assets/priceCards/priceCardOne.svg"
+import priceCardTwo from "../assets/priceCards/priceCardTwo.svg"
+import priceCardThree from "../assets/priceCards/priceCardThree.svg"
+import styled from "styled-components"
 
 export const MakeYourPick = () => {
   return (
@@ -10,13 +10,13 @@ export const MakeYourPick = () => {
         <h1>Make Your Pick</h1>
       </TextSection>
       <CardSection>
-        <MakeYourPickOne src={priceCardOne} />
-        <MakeYourPickTwo src={priceCardTwo} />
-        <MakeYourPickThree src={priceCardThree} />
+        <MakeYourPickOne src={priceCardOne} alt="Cardone" />
+        <MakeYourPickTwo src={priceCardTwo} alt="Cardtwo" />
+        <MakeYourPickThree src={priceCardThree} alt="Cardthree" />
       </CardSection>
     </>
-  );
-};
+  )
+}
 
 const TextSection = styled.div`
   display: flex;
@@ -32,14 +32,14 @@ const TextSection = styled.div`
     font-weight: 700;
     line-height: 130%;
   }
-`;
+`
 
 const CardSection = styled.div`
   display: flex;
   justify-content: center;
   margin-top: 50px;
   margin-bottom: 40px;
-`;
+`
 
 const MakeYourPickOne = styled.img`
   display: flex;
@@ -52,9 +52,8 @@ const MakeYourPickOne = styled.img`
     display: flex;
     height: 400px;
     width: 300px;
-
   }
-`;
+`
 
 const MakeYourPickTwo = styled.img`
   display: none;
@@ -71,7 +70,7 @@ const MakeYourPickTwo = styled.img`
     padding-left: 10px;
     padding-right: 10px;
   }
-`;
+`
 
 const MakeYourPickThree = styled.img`
   display: none;
@@ -86,4 +85,4 @@ const MakeYourPickThree = styled.img`
     padding-left: 10px;
     padding-right: 10px;
   }
-`;
+`

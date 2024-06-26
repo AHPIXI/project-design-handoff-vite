@@ -1,10 +1,10 @@
-import tabletLogo from "../assets/footerImages/tablet-logo.svg";
+import tabletLogo from "../assets/footerImages/tablet-logo.svg"
 // import mobileLogo from "../assets/footerImages/moblie-logo.png";
 // import desktopLogo from "../assets/footerImages/desktop-logo.png";
-import facebook from "../assets/followUsSection/facebook.png";
-import instagram from "../assets/followUsSection/instagram.png";
-import chevron from "../assets/followUsSection/chevron.png";
-import styled from "styled-components";
+import facebook from "../assets/followUsSection/facebook.png"
+import instagram from "../assets/followUsSection/instagram.png"
+import chevron from "../assets/followUsSection/chevron.png"
+import styled from "styled-components"
 
 export const Footer = () => {
   return (
@@ -22,24 +22,24 @@ export const Footer = () => {
       <FollowUs>
         <Icons>
           <FooterList>Follow us</FooterList>
-          <IconImage src={facebook} />
-          <IconImage src={instagram} />
+          <IconImage src={facebook} alt="Facebook" />
+          <IconImage src={instagram} alt="Instagram" />
         </Icons>
         <Language>
           <FooterList>EN</FooterList>
-          <ChevronImage src={chevron} />
+          <ChevronImage src={chevron} alt="Chevron" />
         </Language>
       </FollowUs>
     </FooterContent>
-  );
-};
+  )
+}
 
 const FooterContent = styled.div`
   background-color: #234059;
   height: 550px;
   color: #ffc8dd;
   padding-top: 40px;
-`;
+`
 
 const MobileLogo = styled.div`
   background-image: url(${tabletLogo});
@@ -54,7 +54,7 @@ const MobileLogo = styled.div`
     height: 100px;
     width: 150px; 
   } */
-`;
+`
 
 const FooterText = styled.div`
   display: flex;
@@ -62,7 +62,6 @@ const FooterText = styled.div`
   padding-right: 24px;
   padding-left: 24px;
   padding-bottom: 40px;
-  
 
   h1 {
     font-family: Philosopher;
@@ -73,7 +72,7 @@ const FooterText = styled.div`
     letter-spacing: 1.08px;
     text-align: left;
   }
-`;
+`
 
 const FooterList = styled.li`
   display: flex;
@@ -94,23 +93,23 @@ const FooterList = styled.li`
   &:active {
     text-decoration: underline;
   }
-`;
+`
 
 const FollowUs = styled.div`
   display: flex;
   justify-content: space-between;
   padding-top: 50px;
 
-  @media (min-width: 600px){
+  @media (min-width: 600px) {
     display: flex;
     justify-content: flex-end;
   }
-`;
+`
 
 const IconImage = styled.img`
   height: 24px;
   padding: 5px;
-`;
+`
 
 const ChevronImage = styled.img`
   height: 20px;
@@ -119,12 +118,12 @@ const ChevronImage = styled.img`
   padding-top: 8px;
   padding-left: 10px;
   padding-right: 24px;
-`;
+`
 
 const Language = styled.div`
   display: flex;
-`;
+`
 
 const Icons = styled.div`
   display: flex;
-`;
+`

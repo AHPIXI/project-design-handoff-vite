@@ -1,7 +1,7 @@
-import heroImage from "../assets/heroSectionImages/heroImage.svg";
-import mountainImage from "../assets/heroSectionImages/mountainGraphic.png";
-import styled from "styled-components";
-import { HeaderNavbar } from "./HeaderNavbar";
+import heroImage from "../assets/heroSectionImages/heroImage.svg"
+import mountainImage from "../assets/heroSectionImages/mountainGraphic.png"
+import styled from "styled-components"
+import { HeaderNavbar } from "./HeaderNavbar"
 
 export const Hero = () => {
   return (
@@ -15,11 +15,11 @@ export const Hero = () => {
           </p>
         </HeroContent>
         <CtaButton>Explore our camps</CtaButton>
-        <MountainImage src={mountainImage} />
+        <MountainImage src={mountainImage} alt="Mountain" />
       </HeroSection>
     </>
-  );
-};
+  )
+}
 
 const HeroSection = styled.div`
   background-image: url(${heroImage});
@@ -33,19 +33,17 @@ const HeroSection = styled.div`
 
   @media (min-width: 600px) and (max-width: 1199px) {
     height: 1133px;
-
   }
   @media (min-width: 1200px) {
     height: 1024px;
-    
   }
-`;
+`
 
 const MountainImage = styled.img`
   display: flex;
   height: 50px;
   padding-top: 70px;
-`;
+`
 
 const HeroContent = styled.div`
   display: flex;
@@ -86,13 +84,12 @@ const HeroContent = styled.div`
       padding-bottom: 80px;
     }
   }
-`;
+`
 
 const CtaButton = styled.button`
   gap: 10px;
   width: 85%;
   height: 48px;
- 
 
   border-radius: 32px;
   border: 1px solid var(--Powder-Black, #0b1623);
@@ -107,10 +104,8 @@ const CtaButton = styled.button`
   line-height: 100%;
   margin: auto;
   @media (min-width: 600px) {
-    
     width: 30%;
     height: 48px;
-
   }
 
   &:hover {
@@ -127,4 +122,4 @@ const CtaButton = styled.button`
 
     box-shadow: 2px 3px 0px 0px #0b1623;
   }
-`;
+`

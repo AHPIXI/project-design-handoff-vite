@@ -1,7 +1,7 @@
-import exploreMobile from "../../assets/mobileIcons/explore-mobile.svg";
+import exploreMobile from "../../assets/mobileIcons/explore-mobile.svg"
 // import exploreTablet from "../../assets/tabletIcons/explore-tablet.png";
 // import exploreDesktop from "../../assets/desktopIcons/explore-desktop.png";
-import styled from "styled-components";
+import styled from "styled-components"
 
 export const Explore = () => {
   return (
@@ -17,20 +17,20 @@ export const Explore = () => {
         </ExploreText>
       </ExploreCard>
     </>
-  );
-};
+  )
+}
 
 const ExploreCard = styled.div`
   display: flex;
 
-  @media(min-width: 600px) and (max-width: 1199px){
+  @media (min-width: 600px) and (max-width: 1199px) {
     flex-direction: row;
   }
 
-  @media(min-width: 1200px){
+  @media (min-width: 1200px) {
     flex-direction: column;
   }
-`;
+`
 
 const ExploreImage = styled.div`
   background-image: url(${exploreMobile});
@@ -41,10 +41,9 @@ const ExploreImage = styled.div`
   height: 70px;
   width: 70px;
   padding-top: 35px;
-`;
+`
 
 const ExploreText = styled.div`
-  
   h2 {
     color: #0b1623;
     font-size: 21px;
@@ -61,4 +60,4 @@ const ExploreText = styled.div`
     font-weight: 500;
     line-height: 130%;
   }
-`;
+`
