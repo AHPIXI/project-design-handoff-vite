@@ -7,10 +7,9 @@ export const HeaderNavbar = () => {
   return (
     <>
       <Navbar>
-        <NavbarLogo src={navbarLogo} />
+        <NavbarLogo src={navbarLogo} alt="Company logo" />
         <Dropdown />
       </Navbar>
-    
     </>
   );
 };
@@ -27,10 +26,3 @@ const NavbarLogo = styled.img`
   margin-left: 24px;
   padding-top: 40px;
 `;
-
-// const NavbarMenu = styled.img`
-// padding-right: 24px;
-// padding-top: 30px;
-// width: 40px;
-// height: 40px;
-// `;

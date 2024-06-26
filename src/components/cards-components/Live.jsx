@@ -7,7 +7,7 @@ export const Live = () => {
   return (
     <>
       <LiveCard>
-        <LiveImage></LiveImage>
+        <LiveImage alt="Image of a house for accommodation"/>
         <LiveText>
           <h2>Live</h2>
           <p>Enjoy your stay at our cozy cabin in Laax.</p>
@@ -38,6 +38,15 @@ const LiveImage = styled.div`
   height: 70px;
   width: 70px;
   padding-top: 40px;
+
+  @media (min-width: 600px) {
+    background-image: url(${houseTablet});
+    width: 120px;
+  }
+  @media (min-width: 1999px) {
+    background-image: url(${houseDesktop});
+    width: 120px;
+  }
 `;
 
 const LiveText = styled.div`

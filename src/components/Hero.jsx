@@ -33,11 +33,9 @@ const HeroSection = styled.div`
 
   @media (min-width: 600px) and (max-width: 1199px) {
     height: 1133px;
-
   }
   @media (min-width: 1200px) {
     height: 1024px;
-    
   }
 `;
 
@@ -92,7 +90,6 @@ const CtaButton = styled.button`
   gap: 10px;
   width: 85%;
   height: 48px;
- 
 
   border-radius: 32px;
   border: 1px solid var(--Powder-Black, #0b1623);
@@ -106,6 +103,7 @@ const CtaButton = styled.button`
   font-weight: 500;
   line-height: 100%;
   margin: auto;
+
   @media (min-width: 600px) {
     
     width: 30%;

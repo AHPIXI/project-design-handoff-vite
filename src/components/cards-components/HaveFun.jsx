@@ -7,7 +7,7 @@ export const HaveFun = () => {
   return (
     <>
       <HaveFunCard>
-        <HaveFunImage></HaveFunImage>
+        <HaveFunImage alt="Image of a microphone"/>
         <HaveFunText>
           <h2>Have fun</h2>
           <p>
@@ -23,11 +23,11 @@ export const HaveFun = () => {
 const HaveFunCard = styled.div`
   display: flex;
 
-  @media(min-width: 600px) and (max-width: 1199px){
+  @media (min-width: 600px) and (max-width: 1199px) {
     flex-direction: row;
   }
 
-  @media(min-width: 1200px){
+  @media (min-width: 1200px) {
     flex-direction: column;
   }
 `;
@@ -41,10 +41,14 @@ const HaveFunImage = styled.div`
   height: 70px;
   width: 70px;
   padding-top: 40px;
-  /* @media (min-width: 600px) and (max-width: 1199px) {
+  @media (min-width: 600px) {
     background-image: url(${havefunTablet});
-  } */
-
+    width: 120px;
+  }
+  @media (min-width: 1999px) {
+    background-image: url(${havefunDesktop});
+    width: 120px;
+  }
 `;
 
 const HaveFunText = styled.div`

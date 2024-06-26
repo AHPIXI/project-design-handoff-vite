@@ -9,21 +9,23 @@ import styled from "styled-components";
 export const Footer = () => {
   return (
     <FooterContent>
-      <MobileLogo alt="Company logo" />
       <FooterText>
+        <Logo alt="Company logo" />
         <h1>
           Learn, Laugh, and<br></br>Connect on the Slopes!
         </h1>
       </FooterText>
-      <FooterList>About us</FooterList>
-      <FooterList>FAQ</FooterList>
-      <FooterList>Privacy Policy</FooterList>
-      <FooterList>Terms and conditions</FooterList>
+      <nav aria-label="Footer Navigation">
+        <FooterList href="#about-us">About us</FooterList>
+        <FooterList href="#faq">FAQ</FooterList>
+        <FooterList href="#privacy-policy">Privacy Policy</FooterList>
+        <FooterList href="#terms-and-conditions">Terms and conditions</FooterList>
+      </nav>
       <FollowUs>
         <Icons>
-          <FooterList>Follow us</FooterList>
-          <IconImage src={facebook} />
-          <IconImage src={instagram} />
+          <FooterList href="#follow-us">Follow us</FooterList>
+          <IconImage src={facebook} alt="Facebook icon"/>
+          <IconImage src={instagram} alt="Instagram icon"/>
         </Icons>
         <Language>
           <FooterList>EN</FooterList>
@@ -36,42 +38,49 @@ export const Footer = () => {
 
 const FooterContent = styled.div`
   background-color: #234059;
-  height: 550px;
+  height: 400px;
   color: #ffc8dd;
-  padding-top: 40px;
+  padding-top: 80px;
+
+  @media (min-width 600px) {
+    margin: 80px 32px 80 px 32px;
+  }
 `;
 
-const MobileLogo = styled.div`
-  background-image: url(${tabletLogo});
+const Logo = styled.div`
+  background-image: url(${mobileLogo});
   background-repeat: no-repeat;
   height: 40px;
   width: 100px;
   margin-left: 24px;
-  padding-bottom: 40px;
 
-  /* @media(min-width: 600 px) and (max-width: 1199px){
-    background-image: url(${tabletLogo})
-    height: 100px;
-    width: 150px; 
-  } */
+  @media (min-width: 600 px) and (max-width: 1199px) {
+    background-image: url(${tabletLogo});
+    height: 60px;
+    width: 140px;
+    padding-top: 35px;
+  }
+  @media (min-width: 1200px) {
+    background-image: url(${desktopLogo});
+    height: 50px;
+    width: 140px;
+  }
 `;
 
 const FooterText = styled.div`
   display: flex;
-  justify-content: flex-end;
-  padding-right: 24px;
-  padding-left: 24px;
-  padding-bottom: 40px;
-  margin: auto;
+  justify-content: space-between;
+  padding-right: 32px;
 
   h1 {
+    margin-top: 0px;
     font-family: Philosopher;
     font-size: 30px;
     font-style: normal;
     font-weight: 700;
     line-height: 39px;
     letter-spacing: 1.08px;
-    text-align: left;
+    text-align: right;
   }
 `;
 
@@ -94,16 +103,22 @@ const FooterList = styled.li`
   &:active {
     text-decoration: underline;
   }
+
+  @media (min-width: 600px) {
+    display: flex;
+    justify-content: flex-start;
+  }
 `;
 
 const FollowUs = styled.div`
   display: flex;
   justify-content: space-between;
-  padding-top: 50px;
+  margin-top: 80px;
 
-  @media (min-width: 600px){
+  @media (min-width: 600px) {
     display: flex;
     justify-content: flex-end;
+    margin-top: -35px;
   }
 `;
 

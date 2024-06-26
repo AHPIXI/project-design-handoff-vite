@@ -7,7 +7,7 @@ export const OurLessons = () => {
   return (
     <>
       <OurLessonsWrapper>
-        <OurLessonsImage></OurLessonsImage>
+        <OurLessonsImage alt="Snowboarding Lessons" />
         <OurLessonContent>
           <OurLessonsText>
             <h1>Our Lessons</h1>
@@ -47,7 +47,7 @@ const OurLessonsImage = styled.div`
   background-position: 100%;
   width: 100%;
   min-height: 240px;
-  
+
   @media (min-width: 600px) {
     order: 1;
   }
